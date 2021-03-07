@@ -34,7 +34,7 @@ function render(variables = {}) {
             ${cover}
           <img src="${variables.avatarURL}" class="photo" />
           <h1>${variables.name != null ? variables.name : ""} ${
-    variables.lastname != null ? variables.name : ""
+    variables.lastname != null ? variables.lastname : ""
   }</h1>
           <h2>${variables.role != null ? variables.role : ""} </h2>
           <h3>${variables.city != null ? variables.city : ""} ${
